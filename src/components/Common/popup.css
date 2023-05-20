@@ -1,0 +1,520 @@
+
+  
+  label {
+    display: flex;
+    line-height: 0.5;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  #popup-whole{
+    width: 750px;
+  }
+  /* .input-textarea{
+    width:105.5%;
+    color: #fff;
+  } */
+  #popup-1{
+
+    width: 500px;
+    margin-left: 80px;
+    height: 600px;
+    background-color: #B92200;
+  }
+  #text-centerx{
+    /* text-align: center; */
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  /* #columnx{
+    height: 500px;
+    margin: 0%;
+
+  } */
+  .columnpopup{
+    margin-top: 10px;
+    width: 100%;
+  }
+  #title{
+    font-size: 14px;
+    font-weight: 63px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  #description{
+    font-size: 24px;
+    font-weight: 63px;
+    font-weight: 700;
+    line-height: 62px;
+  }
+  #descriptionx{
+    font-size: 56px;
+    font-weight: 63px;
+    font-weight: 700;
+    color: #C79635;
+    line-height: 62px;
+  }
+  #namex{
+    width: 400px;
+  }
+  #emailx{
+    width: 400px;
+  }
+  #companyx{
+    width: 400px;
+  }
+  #commentsx{
+    width: 400px;
+  }
+  .formwhole{
+    background-color: #B92200;
+  }
+  #survey-formpopup{
+    height: 550px;
+   padding-left: 10px;
+   padding-top: 20px;
+  }
+  button {
+    border: none;
+  }
+
+  .containerpopup {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    background-color: white;
+
+  }
+  .row-wholepopup{
+    background-color: #B92200;
+    width: 500px;
+  }
+
+  /* #popup-1{
+
+    width: 300px;
+    height: 700px;
+    background-color: #B92200;
+  } */
+  .header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    margin-top: 0%;
+    /* color: white; */
+    background-color: #B92200;
+  }
+  
+  .description {
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+  }
+  
+  .clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #B92200;
+  }
+  
+  .text-center {
+    color: white;
+  }
+  
+  /* form */
+
+  
+
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    min-height: 80px;
+    width: 60%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 50%;
+    color: #495057;
+    padding: 0.75rem;
+    background: linear-gradient(#e57e08, #fcbe43);
+    color: inherit;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+
+  @media screen and (min-width:200px) and (max-width:480px) {
+     
+    label {
+      display: flex;
+      line-height: 1;
+      align-items: center;
+      font-size: 0.5rem;
+      margin-bottom: 0.3rem;
+      color: black;
+    }
+    
+    #namex{
+      width: 200px;
+    }
+    #emailx{
+      width: 200px;
+    }
+    #companyx{
+      width: 200px;
+    }
+    #commentsx{
+      width: 200px;
+    }
+    
+    input,
+    button,
+    select,
+    textarea {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+    #popup-whole{
+      width: 300px;
+    }
+    /* .input-textarea{
+      width:105.5%;
+      color: #fff;
+    } */
+    #popup-1{
+  
+      width: 300px;
+      margin-left: 50px;
+      height: 680px;
+      background-color: #c27c6d;
+    }
+    #text-centerx{
+      /* text-align: center; */
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    /* #columnx{
+      height: 500px;
+      margin: 0%;
+  
+    } */
+    .columnpopup{
+      margin-top: 10px;
+      width: 100%;
+    }
+    #title{
+      font-size: 14px;
+      font-weight: 63px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+    #description{
+      font-size: 24px;
+      font-weight: 63px;
+      font-weight: 500;
+      line-height: 62px;
+    }
+    #descriptionx{
+      font-size: 56px;
+      font-weight: 63px;
+      font-weight: 700;
+      color: #C79635;
+      line-height: 62px;
+    }
+    
+    /* .title{
+      color: white;
+    } */
+    /* h1{
+      text-align: center;
+    } */
+    .formwhole{
+      background-color: #c27c6d;
+    }
+    #survey-formpopup{
+      height: 600px;
+    }
+    button {
+      border: none;
+    }
+  
+    .containerpopup {
+      width: 100%;
+      margin: 3.125rem auto 0 auto;
+      background-color: white;
+  
+    }
+    .row-wholepopup{
+      background-color: #c27c6d;
+      width: 300px;
+    }
+    }
+
+    /* lapto view of popup */
+
+    @media screen and (min-width:481px) and (max-width:779px) {
+        #survey-form{
+            padding: 2.5rem;
+          }
+      label {
+        display: flex;
+        line-height: 1;
+        align-items: center;
+        font-size: 0.5rem;
+        margin-bottom: 0.3rem;
+        color: black;
+      }
+      
+      #namex{
+        width: 200px;
+      }
+      #emailx{
+        width: 200px;
+      }
+      #companyx{
+        width: 200px;
+      }
+      #commentsx{
+        width: 200px;
+      }
+      
+      input,
+      button,
+      select,
+      textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+      }
+      #popup-whole{
+        width: 400px;
+      }
+      /* .input-textarea{
+        width:105.5%;
+        color: #fff;
+      } */
+      #popup-1{
+    
+        width: 400px;
+        margin-left: 100px;
+        height: 760px;
+        background-color: #c27c6d;
+      }
+      #text-centerx{
+        /* text-align: center; */
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      /* #columnx{
+        height: 500px;
+        margin: 0%;
+    
+      } */
+      .columnpopup{
+        margin-top: 10px;
+        width: 100%;
+      }
+      #title{
+        font-size: 14px;
+        font-weight: 63px;
+        font-weight: 500;
+        line-height: 32px;
+      }
+      #description{
+        font-size: 24px;
+        font-weight: 63px;
+        font-weight: 500;
+        line-height: 62px;
+      }
+      #descriptionx{
+        font-size: 56px;
+        font-weight: 63px;
+        font-weight: 700;
+        color: #C79635;
+        line-height: 62px;
+      }
+      
+      /* .title{
+        color: white;
+      } */
+      /* h1{
+        text-align: center;
+      } */
+      .formwhole{
+        background-color: #c27c6d;
+      }
+      #survey-formpopup{
+        height: 600px;
+      }
+      button {
+        border: none;
+      }
+    
+      .containerpopup {
+        width: 100%;
+        margin: 3.125rem auto 0 auto;
+        background-color: white;
+    
+      }
+      .row-wholepopup{
+        background-color: #c27c6d;
+        width: 300px;
+      }
+      }
+
+      @media screen and (min-width:780px) and (max-width:1024px) {
+        label {
+          display: flex;
+          line-height: 1;
+          align-items: center;
+          font-size: 0.5rem;
+          margin-bottom: 0.3rem;
+          color: black;
+        }
+        
+        #namex{
+          width: 200px;
+        }
+        #emailx{
+          width: 200px;
+        }
+        #companyx{
+          width: 200px;
+        }
+        #commentsx{
+          width: 200px;
+        }
+        
+        input,
+        button,
+        select,
+        textarea {
+          margin: 0;
+          font-family: inherit;
+          font-size: inherit;
+          line-height: inherit;
+        }
+        #popup-whole{
+          width: 400px;
+        }
+        /* .input-textarea{
+          width:105.5%;
+          color: #fff;
+        } */
+        #popup-1{
+      
+          width: 400px;
+          margin-left: 100px;
+          height: 680px;
+          background-color: #c27c6d;
+        }
+        #text-centerx{
+          /* text-align: center; */
+          margin-top: 50px;
+          margin-left: 50px;
+        }
+        /* #columnx{
+          height: 500px;
+          margin: 0%;
+      
+        } */
+        .columnpopup{
+          margin-top: 10px;
+          width: 100%;
+        }
+        #title{
+          font-size: 14px;
+          font-weight: 63px;
+          font-weight: 500;
+          line-height: 32px;
+        }
+        #description{
+          font-size: 24px;
+          font-weight: 63px;
+          font-weight: 500;
+          line-height: 62px;
+        }
+        #descriptionx{
+          font-size: 56px;
+          font-weight: 63px;
+          font-weight: 700;
+          color: #C79635;
+          line-height: 62px;
+        }
+        
+        /* .title{
+          color: white;
+        } */
+        /* h1{
+          text-align: center;
+        } */
+        .formwhole{
+          background-color: #c27c6d;
+        }
+        #survey-formpopup{
+          height: 600px;
+        }
+        button {
+          border: none;
+        }
+      
+        .containerpopup {
+          width: 100%;
+          margin: 3.125rem auto 0 auto;
+          background-color: white;
+      
+        }
+        .row-wholepopup{
+          background-color: #c27c6d;
+          width: 300px;
+        }
+        }
+
+      
+

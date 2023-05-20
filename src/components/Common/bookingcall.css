@@ -1,0 +1,485 @@
+
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  #text-centerx{
+    /* text-align: center; */
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+  #columnx{
+    height: 750px;
+
+
+  }
+  #title{
+    font-size: 24px;
+    font-weight: 63px;
+    font-weight: 500;
+    line-height: 62px;
+  }
+  #description{
+    font-size: 56px;
+    font-weight: 63px;
+    font-weight: 700;
+    line-height: 62px;
+  }
+  #descriptionx{
+    font-size: 56px;
+    font-weight: 63px;
+    font-weight: 700;
+    color: #28C5FF;
+    line-height: 62px;
+  }
+  
+  /* .title{
+    color: white;
+  } */
+  /* h1{
+    text-align: center;
+  } */
+  .formwhole{
+    background-color: #1330CA;
+  }
+  #survey-form{
+    height: 600px;
+ 
+  }
+  button {
+    border: none;
+  }
+
+  .container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    background-color: white;
+
+  }
+  .row-whole{
+    background-color: #1330CA;
+  }
+
+  
+  .header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    margin-top: 0%;
+    /* color: white; */
+    background-color: #1330CA;
+  }
+  
+  .description {
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+  }
+  
+  .clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #1330CA;
+  }
+  
+  .text-center {
+    color: white;
+  }
+  
+  /* form */
+
+  
+
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    min-height: 100px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 50%;
+    color: #495057;
+    padding: 0.75rem;
+    background: linear-gradient(#e57e08, #fcbe43);
+    color: inherit;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    min-height: 100px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 50%;
+    color: #495057;
+    padding: 0.75rem;
+    background: linear-gradient(#e57e08, #fcbe43);
+    color: inherit;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #survey-form{
+    padding: 2.5rem;
+  }
+  @media screen and (min-width:200px) and (max-width: 480px) {
+    form {
+      padding: 1rem;
+    }
+    #form-whole{
+      height: 200px;
+    }
+    #text-centerx{
+      display: none;
+    }
+    #columnx{
+      display: none;
+    }
+    #survey-form{
+      width: auto;
+      margin-right: 30px;
+    }
+    #name-label{
+      font-size: 12px;
+    }
+    #email-label{
+      font-size: 12px;
+    }
+    #name-label{
+      font-size: 12px;
+    }
+    #form-control{
+      font-size: 12px;
+    }
+    #comment-label{
+      font-size: 10px;
+    }
+    .form-group{
+      font-size: 12px;
+    }
+    .container{
+      margin-right: 10px;
+      width: 280px;
+    }
+    #formcontainer{
+      height: 580px;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (min-width:481px) and (max-width: 790px) {
+   
+
+    
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  #text-centerx{
+    /* text-align: center; */
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+  #coluumnx{
+    display: flex;
+    margin-top: 0px;
+    width: 50%;
+  }
+  #coluumnxx{
+    display: flex;
+    margin-top: 0px;
+    width: 50%;
+  }
+
+  #title{
+    font-size: 24px;
+    font-weight: 63px;
+    font-weight: 500;
+    line-height: 62px;
+  }
+  #description{
+    font-size: 56px;
+    font-weight: 63px;
+    font-weight: 700;
+    line-height: 62px;
+  }
+  #descriptionx{
+    font-size: 56px;
+    font-weight: 63px;
+    font-weight: 700;
+    color: #28C5FF;
+    line-height: 62px;
+  }
+  
+  /* .title{
+    color: white;
+  } */
+  /* h1{
+    text-align: center;
+  } */
+  .formwhole{
+    background-color: #1330CA;
+  }
+  #survey-form{
+    height: 600px;
+ 
+  }
+  button {
+    border: none;
+  }
+
+  .container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    background-color: white;
+
+  }
+  .row-whole{
+    background-color: #1330CA;
+  }
+
+  
+  .header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    margin-top: 0%;
+    /* color: white; */
+    background-color: #1330CA;
+  }
+  
+  .description {
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+  }
+  
+  .clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #1330CA;
+  }
+  
+  .text-center {
+    color: white;
+  }
+  
+  /* form */
+
+  
+
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    min-height: 100px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 50%;
+    color: #495057;
+    padding: 0.75rem;
+    background: linear-gradient(#e57e08, #fcbe43);
+    color: inherit;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    min-height: 100px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 50%;
+    color: #495057;
+    padding: 0.75rem;
+    background: linear-gradient(#e57e08, #fcbe43);
+    color: inherit;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #survey-form{
+    padding: 2.5rem;
+  }
+    
+  }
+  @media screen and (min-width:480px) and (max-width: 800px) {
+
+    #description{
+      font-size: 24px;
+    }
+    #columnx{
+      padding: 0%;
+    }
+
+
+  }

@@ -1,0 +1,412 @@
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+
+.dropdown-content {
+  display: none;
+  margin-left: 190px;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1000px;
+  Margin-top: 2px;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnNav {
+  float: left;
+  width: 22.80%;
+  padding: 10px;
+  background-color: #C79635;
+  height: 280px;
+  border-right: solid 2px #b7b4b4;
+}
+
+.columnNav a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.columnNav a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sub-links{
+  margin-top: 15px;
+ 
+  
+}
+
+ .sub-links a{
+  margin-top: 5px;
+/* display: none; */
+  font-size: 12px;
+  background: none;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+.dropdown-content .columnNav .parentLink a{
+  margin-top: 20px;
+  font-size: 16px;
+  background:none;
+  margin-left: 5px;
+}
+.dropdown-content .columnNav .sub-links a{
+  background: none;
+}
+.parentHead h4{
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.subhead h6{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.BookcallBtn{
+  margin-left:53px;
+}
+.buttonzn {
+  background-color: #B92200;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* .buttonzn a{
+background-color: #C79635;
+} */
+.BookcallBtn .buttonzn a{
+  color: #b7b4b4;
+}
+.buttonzn:hover{
+  color: #b7b4b4;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+  
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+
+.dropdown-content {
+ 
+  margin-left: 0px;
+  position: relative;
+
+  background-color: #f9f9f9;
+  width: 1000px;
+  height: 50px;
+  Margin-top: 2px;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnNav {
+  display: inline-block;
+  width: 7.1%;
+  padding: 5px;
+  background-color: #C79635;
+  height: 50px;
+  border-right: solid 2px #b7b4b4;
+}
+
+.columnNav a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.parentLink a{
+  font-size: 6px;
+}
+
+.columnNav a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sub-links{
+ display: none;
+ 
+  
+}
+
+ .sub-links a{
+  margin-top: 5px;
+/* display: none; */
+  font-size: 12px;
+  background: none;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+.dropdown-content .columnNav .parentLink a{
+  margin-top: 10px;
+  font-size: 6px;
+  background:none;
+  margin-left: 5px;
+}
+.dropdown-content .columnNav .sub-links a{
+  background: none;
+}
+.parentHead h4{
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.subhead h6{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.BookcallBtn{
+  margin-left:53px;
+}
+.buttonzn {
+  background-color: #B92200;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonzn a{
+background-color: #C79635;
+}
+.BookcallBtn .buttonzn a{
+  color: #b7b4b4;
+}
+.buttonzn:hover{
+  color: #b7b4b4;
+}
+}
+
+
+/* TABLET VIEW OF NAVBAR TWO */
+@media screen and (min-width:601px) and (max-width: 991px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+  
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+
+.dropdown-content {
+ 
+  margin-left: 0px;
+  position: relative;
+
+  background-color: #f9f9f9;
+  width: 1000px;
+  height: 50px;
+  Margin-top: 2px;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnNav {
+  display: inline-block;
+  width: 7.1%;
+  padding: 5px;
+  background-color: #C79635;
+  height: 50px;
+  border-right: solid 2px #b7b4b4;
+}
+
+.columnNav a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.parentLink a{
+  font-size: 6.5px;
+}
+
+.columnNav a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sub-links{
+ display: none;
+ 
+  
+}
+
+ .sub-links a{
+  margin-top: 5px;
+/* display: none; */
+  font-size: 12px;
+  background: none;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+.dropdown-content .columnNav .parentLink a{
+  margin-top: 10px;
+  font-size: 6px;
+  background:none;
+  margin-left: 5px;
+}
+.dropdown-content .columnNav .sub-links a{
+  background: none;
+}
+.parentHead h4{
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.subhead h6{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.BookcallBtn{
+  margin-left:53px;
+}
+.buttonzn {
+  background-color: #B92200;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonzn a{
+background-color: #C79635;
+}
+.BookcallBtn .buttonzn a{
+  color: #b7b4b4;
+}
+.buttonzn:hover{
+  color: #b7b4b4;
+}
+}

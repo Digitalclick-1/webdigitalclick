@@ -1,0 +1,49 @@
+{
+  "name": "digitalclick",
+  "version": "1.7.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.9.1",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "http-proxy-middleware": "^0.19.2",
+    "isomorphic-fetch": "^2.2.1",
+    "lax.js": "^1.2.5",
+    "react": "^17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-collapsible": "^2.8.3",
+    "react-dom": "^17.0.2",
+    "react-modal-video": "^1.2.8",
+    "react-owl-carousel3": "^2.2.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.8",
+    "react-simple-tooltip": "^2.6.3",
+    "reactjs-popup": "^2.0.5",
+    "sass": "^1.55.0",
+    "uikit": "^3.7.2"
+  },
+  "engines": {
+    "node": "8.11.4",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

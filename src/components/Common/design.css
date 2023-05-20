@@ -1,0 +1,1213 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 570px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .arrow-down{
+    display: none;
+  }
+  .headingsx{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 50px;
+  }
+
+  .headerxyz{
+    top:22%;
+    position: relative;
+    text-align: center;
+    color: #C79635;
+    font-size: 1.5rem;
+    /* background-color: #212529; */
+    
+    font-style: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .panel-info-title{
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color:#212529;
+    font-family: inherit;
+    font-size: 2.15rem;
+    font-weight: 700;
+  }
+  .panel-info-description p{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 0%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    /* text-align: justify; */
+  }
+  .one {
+    width:300px;
+    font-size: 1.43rem;
+    text-align: center;
+    line-height: 1.2;
+    color: white;
+    background-image: url("../../assets/images/marketinvestmentconsultant.png");
+    margin-left: 100px;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: #B92200;
+    grid-column: 1 / 1;
+   
+    grid-row: 1;
+    
+  }
+
+  
+  .one:hover {
+    transform:translate3d(2%,0%,0);
+}
+.three:hover {
+  transform:translate3d(2%,0%,0);
+}
+
+.four:hover {
+  transform:translate3d(-2%,0%,0);
+}
+
+.five:hover {
+  transform:translate3d(2%,0%,0);
+}
+.six:hover {
+  transform:translate3d(-2%,0%,0);
+}
+.seven:hover {
+  transform:translate3d(-2%,0%,0);
+}
+
+
+  
+  .two {
+    /* display: none; */
+    /* padding-right: 80px; */
+    width:523px;
+    height: 680px;
+    background-color: 	#F8F8F8;
+    /* border-style: solid; */
+    /* border-color: green; */
+    /* border-width: 2px; */
+    position: relative;
+    text-align: center;
+    /* background-color: whitesmoke; */
+    grid-column: 2 / 2;
+    grid-row: 1 / 4;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .three {
+    width:300px;
+    font-size: 1.43rem;
+    text-align: center;
+    width:300px;
+    background-image: url("../../assets/images/consultant_compliance.png");
+    margin-left: 100px;
+    grid-column: 1;
+        background-color: black;
+        border-radius: 10px;
+    grid-row: 2 / 2;
+  }
+  /* .three:hover ~ .two{
+    display: block;
+  } */
+  
+
+  .four {
+    width:300px;
+    font-size: 1.43rem;
+    text-align: center;
+    width:300px;
+    margin-left: 65px;
+    grid-column: 3;
+    color: white;
+    border-radius: 10px;
+    grid-row: 1;
+    background-color: black;
+    background-image: url("../../assets/images/consultant_ecosystem.png");
+
+  }
+  .five {
+    width:300px;
+    font-size: 1.43rem;
+    text-align: center;
+    width:300px;
+    border-radius: 10px;
+    margin-left: 100px;
+    grid-column: 1;
+    grid-row: 3;
+    color: white;
+    margin-bottom: 10px;
+    background-color: black;
+    background-image: url("../../assets/images/consultant_listings.png");
+  }
+  .six {
+    width:300px;
+    font-size: 1.43rem;
+    text-align: center;
+    width:300px;
+    margin-left: 65px;
+    border-radius: 10px;
+    grid-column: 3;
+    grid-row: 3;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+    background-image: url("../../assets/images/consultant_whitepaper.png");
+  }
+  .seven{
+    width:300px;
+    font-size: 1.43rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-image: url("../../assets/images/consultant_proofofconcept.png");
+    margin-left: 65px;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: black;
+  }
+
+  /* link button css */
+
+  /* .link-btnx{
+
+    display: inline-block;
+    position: relative;
+    color: black;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  } */
+  .link-btnx {
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    width: 40%;
+    background: #FFF;
+	color: gray;
+	font: bold 15px "inhirit";
+	padding: 12px;
+	text-decoration: none;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+  } 
+
+
+  .link-btnx:after {
+    background: gray;
+    color: #FFF;
+   
+    display: inline-block;
+    font: bold 15px "Georgia";
+    height: 25px;
+    line-height: 25px;
+    margin-left: 10px;
+    text-align: center;
+    width: 25px;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+  .link-btnx:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+  
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  @media screen and (min-width:800px) and (max-width: 1200px) {
+
+    .wrapper {
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding-top: 20px;
+      width: 600px;
+      background-color: whitesmoke;
+      height: 500px;
+      margin-left: 20px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+      .arrow-down{
+        display: none;
+  }
+    .headingsx{
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 50px;
+    }
+  
+    .headerxyz{
+      top:30%;
+      position: relative;
+      text-align: center;
+      color: black;
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+    .panel-info-title{
+      text-align: left;
+      margin-top: 30%;
+      margin-left: 10px;
+      margin-bottom: 30px;
+      color:#212529;
+      font-family: inherit;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .panel-info-description p{
+      text-align: left;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 0%;
+      line-height: 1;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+    .one {
+      width:160px;
+      font-size: 1.43rem;
+      text-align: center;
+      line-height: 1.2;
+      color: white;
+      background-image: url("../../assets/images/marketinvestmentconsultant.png");
+      margin-left: 20px;
+      z-index: 2;
+      border-radius: 10px;
+      background-color: black;
+      grid-column: 1 / 1;
+      background-repeat: no-repeat;
+     
+      grid-row: 1;
+      
+    }
+  
+    
+    .one:hover {
+      transform:translate3d(2%,0%,0);
+  }
+  .three:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  
+  .four:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  .five:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  .six:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  .seven:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  
+    
+    .two {
+      /* display: none; */
+      /* padding-right: 80px; */
+      width:390px;
+      height: 400px;
+      background-color: 	#F8F8F8;
+      /* border-style: solid; */
+      /* border-color: green; */
+      /* border-width: 2px; */
+      position: relative;
+      text-align: center;
+      /* background-color: whitesmoke; */
+      grid-column: 2 / 2;
+      grid-row: 1 / 4;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+  
+    .three {
+      width:160px;
+      font-size: 1.43rem;
+      text-align: center;
+      background-image: url("../../assets/images/consultant_compliance.png");
+
+      margin-left: 20px;
+      grid-column: 1;
+          background-color: black;
+          border-radius: 10px;
+      grid-row: 2 / 2;
+    }
+    /* .three:hover ~ .two{
+      display: block;
+    } */
+    
+  
+    .four {
+      width:160px;
+      font-size: 1.43rem;
+      text-align: center;
+      margin-left: 20px;
+      grid-column: 3;
+      color: white;
+      border-radius: 10px;
+      grid-row: 1;
+      background-color: black;
+      background-image: url("../../assets/images/consultant_ecosystem.png");  
+    }
+    .five {
+      width:160px;
+      font-size: 1rem;
+      text-align: center;
+      border-radius: 10px;
+      margin-left: 20px;
+      grid-column: 1;
+      grid-row: 3;
+      color: white;
+      margin-bottom: 10px;
+      background-color: black;
+      background-image: url("https://www.fonewalls.com/wp-content/uploads/1600x1280-Background-HD-Wallpaper-005-300x240.jpg");
+    }
+    .six {
+      width:160px;
+      font-size: 1rem;
+      text-align: center;
+      margin-left: 20px;
+      border-radius: 10px;
+      grid-column: 3;
+      grid-row: 3;
+      color: white;
+      background-color: black;
+      margin-bottom: 10px;
+      background-image: url("../../assets/images/consultant_whitepaper.png");
+    }
+    .seven{
+      width:160px;
+      font-size: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      background-image: url("../../assets/images/consultant_proofofconcept.png");
+      margin-left: 20px;
+      grid-column: 3;
+      grid-row: 2;
+      background-color: black;
+    }
+  
+    /* link button css */
+  
+    /* .link-btnx{
+  
+      display: inline-block;
+      position: relative;
+      color: black;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    } */
+    .link-btnx {
+      align-items: center;
+      margin-left: 5px;
+      justify-content: center;
+      width: 40%;
+      background: #FFF;
+    color: gray;
+    font: bold 15px "inhirit";
+    padding: 12px;
+    text-decoration: none;
+  
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    } 
+  
+  
+    .link-btnx:after {
+      background: gray;
+      color: #FFF;
+     
+      display: inline-block;
+      font: bold 15px "Georgia";
+      height: 25px;
+      line-height: 25px;
+      margin-left: 10px;
+      text-align: center;
+      width: 25px;
+      
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+    }
+    .link-btnx:hover {
+      -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+
+  }
+  @media screen and (min-width:500px) and (max-width: 800px) {
+    .arrow-down{
+      margin-top: 40%;
+      color: #212529;
+    }
+    .wrapper {
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding-top: 20px;
+      width: 450px;
+      background-color: whitesmoke;
+      height: 400px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+      .arrow-down{
+        display: block;
+        margin-top: 30px;
+        color: #B92200;
+  }
+    .headingsx{
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 50px;
+    }
+  
+    .headerxyz{
+      top:18%;
+      position: relative;
+      text-align: center;
+      color: white;
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+    .panel-info-title{
+      text-align: left;
+      margin-top: 30%;
+      margin-left: 10px;
+      margin-bottom: 30px;
+      color:#212529;
+      font-family: inherit;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .panel-info-description p{
+      text-align: left;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 0%;
+      line-height: 1;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+    .one {
+      width:140px;
+      font-size: 1rem;
+      text-align: center;
+      line-height: 1.2;
+      color: white;
+      background-image: url("../../assets/images/marketinvestmentconsultant.png");
+      margin-left: 10px;
+      z-index: 2;
+      border-radius: 10px;
+      background-color: black;
+      grid-column: 1 / 1;
+      background-repeat: no-repeat;
+     
+      grid-row: 1;
+      
+    }
+  
+    
+    .one:hover {
+      transform:translate3d(2%,0%,0);
+  }
+  .three:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  
+  .four:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  .five:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  .six:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  .seven:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  
+    
+    .two {
+      display: none;
+    }
+  
+    .three {
+      width:140px;
+      font-size: 1rem;
+      text-align: center;
+      background-image: url("../../assets/images/consultant_compliance.png");
+      margin-left: 10px;
+      grid-column: 1;
+          background-color: black;
+          border-radius: 10px;
+      grid-row: 2 / 2;
+    }
+    /* .three:hover ~ .two{
+      display: block;
+    } */
+    
+  
+    .four {
+      width:140px;
+      font-size: 1rem;
+      text-align: center;
+      grid-column: 3;
+      color: white;
+      border-radius: 10px;
+      grid-row: 1;
+      background-color: black;
+      background-image: url("../../assets/images/consultant_ecosystem.png");
+  
+    }
+    .five {
+      width:140px;
+      font-size: 1rem;
+      text-align: center;
+      border-radius: 10px;
+      margin-left: 10px;
+      grid-column: 1;
+      grid-row: 3;
+      color: white;
+      margin-bottom: 10px;
+      background-color: black;
+      background-image: url("../../assets/images/consultant_listings.png");    }
+    .six {
+      width:140px;
+      font-size: 1rem;
+      text-align: center;
+      border-radius: 10px;
+      grid-column: 3;
+      grid-row: 3;
+      color: white;
+      background-color: black;
+      margin-bottom: 10px;
+      background-image: url("../../assets/images/consultant_whitepaper.png");
+    }
+    .seven{
+      width:140px;
+      font-size: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      background-image: url("../../assets/images/consultant_proofofconcept.png");
+      grid-column: 3;
+      grid-row: 2;
+      background-color: black;
+    }
+  
+    /* link button css */
+  
+    /* .link-btnx{
+  
+      display: inline-block;
+      position: relative;
+      color: black;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    } */
+    .link-btnx {
+      align-items: center;
+      margin-left: 5px;
+      justify-content: center;
+      width: 40%;
+      background: #FFF;
+    color: gray;
+    font: bold 15px "inhirit";
+    padding: 12px;
+    text-decoration: none;
+  
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    } 
+  
+  
+    .link-btnx:after {
+      background: gray;
+      color: #FFF;
+     
+      display: inline-block;
+      font: bold 15px "Georgia";
+      height: 25px;
+      line-height: 25px;
+      margin-left: 10px;
+      text-align: center;
+      width: 25px;
+      
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+    }
+    .link-btnx:hover {
+      -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+  }
+
+  @media screen and (min-width:200px) and (max-width: 350px) {
+    .arrow-down{
+      margin-top: 40%;
+      color: #212529;
+    }
+    .wrapper {
+
+      display: inline-block;
+      gap: 10px;
+      padding-top: 0px;
+      width: 400px;
+      background-color: whitesmoke;
+      height: 1000px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+      .arrow-down{
+        display: block;
+        margin-top: 60px;
+  }
+    .headingsx{
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 50px;
+    }
+  
+    .headerxyz{
+      top:30%;
+      position: relative;
+      text-align: center;
+      color: black;
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+    .panel-info-title{
+      text-align: left;
+      margin-top: 30%;
+      margin-left: 10px;
+      margin-bottom: 30px;
+      color:#212529;
+      font-family: inherit;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .panel-info-description p{
+      text-align: left;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 0%;
+      line-height: 1;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+    .one {
+      /* width:140px; */
+      width:170px;
+      margin-top: 0%;
+      height: 150px;
+      margin-left: 60px;
+      padding: 0%;
+      /* margin: 0%; */
+      font-size: 1.43rem;
+      text-align: center;
+      line-height: 1.2;
+      color: white;
+      background-image: url("../../assets/images/marketinvestmentconsultant.png");
+      z-index: 2;
+      border-radius: 10px;
+      background-color: black;
+      grid-column: 1 / 1;
+      background-repeat: no-repeat;
+     
+      grid-row: 1;
+      
+    }
+  
+    
+    .one:hover {
+      transform:translate3d(2%,0%,0);
+  }
+  .three:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  
+  .four:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  .five:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  .six:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  .seven:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  
+    
+    .two {
+      display: none;
+    }
+  
+    .three {
+      width:170px;
+      height: 150px;
+      margin-left: 60px;
+      font-size: 1.43rem;
+      text-align: center;
+      padding: 0%;
+      background-image: url("../../assets/images/consultant_compliance.png");   
+      grid-column: 1;
+          background-color: black;
+          border-radius: 10px;
+      grid-row: 2 / 2;
+    }
+    /* .three:hover ~ .two{
+      display: block;
+    } */
+    
+  
+    .four {
+      width:170px;
+      padding: 0%;
+      height: 150px;
+      margin-left: 60px;
+      font-size: 1.43rem;
+      text-align: center;
+      grid-column: 3;
+      color: white;
+      border-radius: 10px;
+      grid-row: 1;
+      background-color: black;
+      background-image: url("../../assets/images/consultant_ecosystem.png");
+  
+    }
+    .five {
+      width:170px;
+      height: 150px;
+      margin-left: 60px;
+      font-size: 1.43rem;
+      text-align: center;
+      border-radius: 10px;
+      padding: 0%;
+      grid-column: 1;
+      grid-row: 3;
+      color: white;
+      margin-bottom: 10px;
+      background-color: black;
+      background-image: url("../../assets/images/consultant_listings.png");
+    }
+    .six {
+      width:170px;
+      height: 150px;
+      margin-left: 60px;
+      font-size: 1.43rem;
+      font-size: 1.43rem;
+      text-align: center;
+      border-radius: 10px;
+      grid-column: 3;
+      grid-row: 3;
+      color: white;
+      background-color: black;
+      margin-bottom: 10px;
+      background-image: url("../../assets/images/consultant_whitepaper.png");
+    }
+    .seven{
+      width:170px;
+      margin-bottom: 100px;
+      height: 150px;
+      margin-left: 60px;
+      font-size: 1.43rem;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      background-image: url("../../assets/images/consultant_proofofconcept.png");
+      grid-column: 3;
+      grid-row: 2;
+      background-color: black;
+    }
+  
+    /* link button css */
+  
+    /* .link-btnx{
+  
+      display: inline-block;
+      position: relative;
+      color: black;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    } */
+    .link-btnx {
+      align-items: center;
+      margin-left: 5px;
+      justify-content: center;
+      width: 40%;
+      background: #FFF;
+    color: gray;
+    font: bold 15px "inhirit";
+    padding: 12px;
+    text-decoration: none;
+  
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    } 
+  
+  
+    .link-btnx:after {
+      background: gray;
+      color: #FFF;
+     
+      display: inline-block;
+      font: bold 15px "Georgia";
+      height: 25px;
+      line-height: 25px;
+      margin-left: 10px;
+      text-align: center;
+      width: 25px;
+      
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+    }
+    .link-btnx:hover {
+      -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+  }
+
+  
+  @media screen and (min-width:350px) and (max-width: 500px) {
+    .arrow-down{
+      margin-top: 40%;
+      color: #212529;
+    }
+    .wrapper {
+
+      display: inline-block;
+      gap: 10px;
+      margin-left: 0px;
+      padding-top: 0px;
+      width: 400px;
+      background-color: whitesmoke;
+      height: 1000px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+      .arrow-down{
+        display: block;
+        margin-top: 60px;
+  }
+    .headingsx{
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 50px;
+    }
+  
+    .headerxyz{
+      top:30%;
+      position: relative;
+      text-align: center;
+      color: black;
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+    .panel-info-title{
+      text-align: left;
+      margin-top: 30%;
+      margin-left: 10px;
+      margin-bottom: 30px;
+      color:#212529;
+      font-family: inherit;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .panel-info-description p{
+      text-align: left;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 0%;
+      line-height: 1;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+    .one {
+      /* width:140px; */
+      width:270px;
+      margin-top: 0%;
+      height: 150px;
+      margin-left: 70px;
+      padding: 0%;
+      /* margin: 0%; */
+      font-size: 1.43rem;
+      text-align: center;
+      line-height: 1.2;
+      color: white;
+      background-image: url("../../assets/images/marketinvestmentconsultant.png");
+      z-index: 2;
+      border-radius: 10px;
+      background-color: black;
+      grid-column: 1 / 1;
+      background-repeat: no-repeat;
+     
+      grid-row: 1;
+      
+    }
+  
+    
+    .one:hover {
+      transform:translate3d(2%,0%,0);
+  }
+  .three:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  
+  .four:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  .five:hover {
+    transform:translate3d(2%,0%,0);
+  }
+  .six:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  .seven:hover {
+    transform:translate3d(-2%,0%,0);
+  }
+  
+  
+    
+    .two {
+      display: none;
+    }
+  
+    .three {
+      width:270px;
+      height: 150px;
+      margin-left: 70px;
+      font-size: 1.43rem;
+      text-align: center;
+      padding: 0%;
+      background-image: url("../../assets/images/consultant_compliance.png");   
+      grid-column: 1;
+          background-color: black;
+          border-radius: 10px;
+      grid-row: 2 / 2;
+    }
+    /* .three:hover ~ .two{
+      display: block;
+    } */
+    
+  
+    .four {
+      width:270px;
+      padding: 0%;
+      height: 150px;
+      margin-left: 70px;
+      font-size: 1.43rem;
+      text-align: center;
+      grid-column: 3;
+      color: white;
+      border-radius: 10px;
+      grid-row: 1;
+      background-color: black;
+      background-image: url("../../assets/images/consultant_ecosystem.png");
+  
+    }
+    .five {
+      width:270px;
+      height: 150px;
+      margin-left: 70px;
+      font-size: 1.43rem;
+      text-align: center;
+      border-radius: 10px;
+      padding: 0%;
+      grid-column: 1;
+      grid-row: 3;
+      color: white;
+      margin-bottom: 10px;
+      background-color: black;
+      background-image: url("../../assets/images/consultant_listings.png");    }
+    .six {
+      width:270px;
+      height: 150px;
+      margin-left: 70px;
+      font-size: 1.43rem;
+      font-size: 1.43rem;
+      text-align: center;
+      border-radius: 10px;
+      grid-column: 3;
+      grid-row: 3;
+      color: white;
+      background-color: black;
+      margin-bottom: 10px;
+      background-image: url("../../assets/images/consultant_whitepaper.png");
+    }
+    .seven{
+      width:270px;
+      margin-bottom: 100px;
+      height: 150px;
+      margin-left: 70px;
+      font-size: 1.43rem;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      background-image: url("../../assets/images/consultant_proofofconcept.png");
+      grid-column: 3;
+      grid-row: 2;
+      background-color: black;
+    }
+  
+    /* link button css */
+  
+    /* .link-btnx{
+  
+      display: inline-block;
+      position: relative;
+      color: black;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    } */
+    .link-btnx {
+      align-items: center;
+      margin-left: 5px;
+      justify-content: center;
+      width: 40%;
+      background: #FFF;
+    color: gray;
+    font: bold 15px "inhirit";
+    padding: 12px;
+    text-decoration: none;
+  
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    } 
+  
+  
+    .link-btnx:after {
+      background: gray;
+      color: #FFF;
+     
+      display: inline-block;
+      font: bold 15px "Georgia";
+      height: 25px;
+      line-height: 25px;
+      margin-left: 10px;
+      text-align: center;
+      width: 25px;
+      
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+    }
+    .link-btnx:hover {
+      -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+  }
